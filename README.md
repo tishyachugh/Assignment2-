@@ -1,7 +1,7 @@
 # WEATHER APP
 
 ## 📌 Description
-A weather app provides real-time weather updates, forecasts, and alerts, helping users plan their day with accurate information on temperature, humidity, wind speed, and precipitation. It offers easy-to-read visuals and notifications for current and future conditions, ensuring users stay informed and prepared.
+A weather app provides real-time weather updates, forecasts, and alerts, helping users plan their day with accurate information on temperature, humidity, wind speed, and precipitation. It offers easy-to-read visuals and notifications for current and future conditions.
 ## 🎨 Demo Preview (HTML & CSS)
 Here is a simple *HTML & CSS* snippet from the project:
 
