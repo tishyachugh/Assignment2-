@@ -60,7 +60,7 @@ Here is a simple **HTML & CSS snippet** from the project:
     <button class="btn" onclick="alert('Button Clicked!')">Explore Weather</button>
 
     <div class="collaborators">
-        <p>👥 <strong>Collaborators:</strong> Ritika, Riva, Tishya, Yakshi</p>
+        <p>👥 <span>Collaborators:</span> Ritika, Riva, Tishya, Yakshi</p>
     </div>
 </div>
 
