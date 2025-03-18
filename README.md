@@ -44,6 +44,10 @@ Here is a simple **HTML & CSS** snippet from the project:
 <body>
     <h1>Welcome to My Project 🚀</h1>
     <button class="btn">Click Me!</button>
+<div class="collaborators">
+        <p>👥 <span>Collaborators:</span> Ritika, Riva, Tishya, Yakshi</p>
+    </div>
+</div>
 </body>
 </html>
 
