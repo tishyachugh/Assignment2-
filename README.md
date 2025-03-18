@@ -1,3 +1,19 @@
+# 🌟 Weather App
+
+## 📌 Description
+The **Weather App** is a web-based application that provides **real-time weather updates**, forecasts, and alerts. It allows users to search for weather details by **city name** or **PIN code** and offers a **5-day weather forecast**. The app includes features like:
+- 🌤️ **Dynamic background images** that change based on the weather condition.  
+- 📍 **Auto-detect location** using the Geolocation API.  
+- 🕰️ **Real-time date and time display**.  
+- 📊 **Interactive charts** to visualize weather data.  
+- 📱 **PWA functionality** for offline access and installability.  
+
+---
+
+## 🎨 **Demo Preview**
+Here is a simple **HTML & CSS snippet** from the project:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,14 +21,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App Demo</title>
     <style>
-        /* Reset and Styling */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #74EBD5, #ACB6E5);
             height: 100vh;
             display: flex;
@@ -23,25 +33,13 @@
         .container {
             text-align: center;
             background: #ffffff;
-            padding: 50px;
-            width: 90%;
-            max-width: 600px;
+            padding: 40px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             border-radius: 12px;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .container:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-        }
-        h1 {
-            font-size: 2.5rem;
-            color: #3498db;
-            margin-bottom: 20px;
         }
         .btn {
             background: #2ecc71;
-            color: #fff;
+            color: white;
             padding: 12px 30px;
             font-size: 18px;
             border: none;
@@ -53,29 +51,6 @@
             background: #27ae60;
             transform: scale(1.1);
         }
-        .collaborators {
-            margin-top: 30px;
-            font-size: 16px;
-            color: #555;
-        }
-        .collaborators span {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        /* Stylish Footer */
-        .footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #777;
-        }
-        .footer a {
-            color: #3498db;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        .footer a:hover {
-            color: #1abc9c;
-        }
     </style>
 </head>
 <body>
@@ -84,17 +59,12 @@
     <h1>Weather App Demo 🌦️</h1>
     <button class="btn" onclick="alert('Button Clicked!')">Explore Weather</button>
 
-    <!-- Collaborators Section -->
     <div class="collaborators">
-        <p>👥 <span>Collaborators:</span> Ritika, Riva, Tishya, Yakshi</p>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-        Made with 💙 by <a href="https://github.com/your-github-profile" target="_blank">Your Team</a>
+        <p>👥 <strong>Collaborators:</strong> Ritika, Riva, Tishya, Yakshi</p>
     </div>
 </div>
 
 </body>
 </html>
+
 
