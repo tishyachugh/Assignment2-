@@ -1,51 +1,64 @@
-# 🌟 Weather_App
-
-## 📌 Description
-The Weather App is a web-based application that provides real-time weather information for different locations. It allows users to search for weather details by city name or PIN code and offers a 5-day weather forecast. The app includes features like:
-
-Dynamic background images that change based on the weather condition.
-Auto-detect location using the Geolocation API.
-Real-time date and time display.
-Interactive charts to visualize weather data.
-PWA functionality for offline access and installability.
-
-## 🎨 Demo Preview (HTML & CSS)
-Here is a simple **HTML & CSS** snippet from the project:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Webpage</title>
+    <title>Weather App Demo</title>
     <style>
+        /* Reset and Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #f4f4f4, #d7e1ec);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+        .container {
             text-align: center;
-            padding: 20px;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.05);
         }
         h1 {
             color: #3498db;
+            margin-bottom: 20px;
         }
         .btn {
-            background-color: #2ecc71;
+            background: #2ecc71;
             color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
+            padding: 12px 25px;
             font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
         }
         .btn:hover {
-            background-color: #27ae60;
+            background: #27ae60;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Project 🚀</h1>
-    <button class="btn">Click Me!</button>
+
+<div class="container">
+    <h1>Welcome to My Weather App 🚀</h1>
+    <button class="btn" onclick="alert('Button Clicked!')">Click Me!</button>
+</div>
+
 </body>
 </html>
+
 
 
