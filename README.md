@@ -1,17 +1,11 @@
-# 🌟 Weather_App
+# WEATHER APP
 
 ## 📌 Description
-The Weather App is a web-based application that provides real-time weather information for different locations. It allows users to search for weather details by city name or PIN code and offers a 5-day weather forecast. The app includes features like:
-
-Dynamic background images that change based on the weather condition.
-Auto-detect location using the Geolocation API.
-Real-time date and time display.
-Interactive charts to visualize weather data.
-PWA functionality for offline access and installability.
+A weather app provides real-time weather updates, forecasts, and alerts, helping users plan their day with accurate information on temperature, humidity, wind speed, and precipitation. It offers easy-to-read visuals and notifications for current and future conditions, ensuring users stay informed and prepared.
 ## 🎨 Demo Preview (HTML & CSS)
-Here is a simple **HTML & CSS** snippet from the project:
+Here is a simple *HTML & CSS* snippet from the project:
 
-```html
+'''html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,13 +38,9 @@ Here is a simple **HTML & CSS** snippet from the project:
 <body>
     <h1>Welcome to My Project 🚀</h1>
     <button class="btn">Click Me!</button>
-<div class="collaborators">
+    <div class="collaborators">
         <p>👥 <span>Collaborators:</span> Ritika, Riva, Tishya, Yakshi</p>
     </div>
 </div>
 </body>
 </html>
-
-
-
-
