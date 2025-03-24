@@ -49,3 +49,6 @@ Here is a simple *HTML & CSS* snippet from the project:
 project title
 Description
 This project demonstrates the use of .gitignore and README.md
+project title
+Description
+This project demonstrates the use of .gitignore and README.md
